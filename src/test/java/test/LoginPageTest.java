@@ -10,7 +10,9 @@ import page.LoginPage;
 import page.TestBase;
 
 public class LoginPageTest extends TestBase{
+	
 	LoginPage loginPageObj;	
+	
 	@BeforeMethod
 	public void setUp() {
 		initDriver();
